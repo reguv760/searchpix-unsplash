@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is based on a Udemy course provided by Stephen Grider.
+
+This also adds the following packages:
+
+1. DotEnv
+
+- used to "hide" Unsplash Access key to connect to API
+
+2. gh pages
+
+- used to deploy site to GitHub
+
 ## Available Scripts
 
 In the project directory, you can run:
