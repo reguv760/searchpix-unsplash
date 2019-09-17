@@ -2,15 +2,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project is based on a Udemy course provided by Stephen Grider.
 
+Demo: [https://rg-unsplash.netlify.com/](https://rg-unsplash.netlify.com/)
+
 This also adds the following packages:
 
 1. DotEnv
 
 - used to "hide" Unsplash Access key to connect to API
 
-2. gh pages
+2. Netlify Integration
 
-- used to deploy site to GitHub
+- Due to DotEnv variables being used, Netlify offers cloud deployments where you can include environment variables during build.
 - to deploy, use `npm run deploy` after configuring in GitHub repo
 
 ## Available Scripts
