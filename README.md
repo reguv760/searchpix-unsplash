@@ -11,6 +11,7 @@ This also adds the following packages:
 2. gh pages
 
 - used to deploy site to GitHub
+- to deploy, use `npm run deploy` after configuring in GitHub repo
 
 ## Available Scripts
 
