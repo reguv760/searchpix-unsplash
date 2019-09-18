@@ -8,13 +8,6 @@ const defaultInputText = "Search for any image..."
 
 class SearchBar extends React.Component
 {
-    constructor(props)
-    {
-        super(props);
-        this.searchBarInput = React.createRef();
-    }
-
-
     state = { term: defaultInputText }
 
     onFormSubmit = (e) =>
